@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+</head>
+
+<body>
+    <form action="/action">
+        <div>
+            <label for="username">Username :</label>
+            <input type="text" placeholder="enter username" id="username" name="username" required />
+        </div>
+
+        <div>
+            <label for="password">Password :</label>
+            <input type="password" placeholder="enter password" id="password" name="password" required/>
+        </div>
+        <div>
+            <label for="age"> Enter Age :</label>
+            <input type="number" placeholder="enter age" id="age" name="age" required />
+        </div>
+
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+        <div>
+            <button type="reset">reset</button>
+        </div>
+    </form>
+
+<!--form to search in youtube-->
+  <form action="https://www.youtube.com/results"  id="youtube-form">
+
+        <div>
+        <label for="search">search :</label>
+        <input type="text" placeholder="search in youtube" name="search_query" id="search"/>
+        </div>
+
+        <div>
+            <button type="submit">search</button>
+        </div>
+</form>
+    <!--redirect to google on clicking the button-->
+        <form action="https://www.google.com/search" id="google-form">
+            <div>
+                <label for="google_search">search in google :</label>
+                <input type="text" placeholder="search with google" id="google_search" name="q" />
+            </div>
+
+            <div>
+                <button type="submit">Google </button>
+            </div>
+        </form>
+    
+</body>
+
+</html>
